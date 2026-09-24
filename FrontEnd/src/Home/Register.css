@@ -1,0 +1,257 @@
+.register-page {
+    width: 100%;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: #f5f7ff;
+
+    overflow: hidden;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.register-navbar {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 60px;
+
+    margin: 0;
+
+   background: #a1b4dd;
+
+    box-shadow: 0 4px 6px ;
+
+    z-index: 9999;
+}
+
+
+/* LOGO */
+
+.register-logo {
+    margin: 0;
+
+    color: white;
+
+    font-size: 22px;
+}
+
+
+
+
+.register-home-btn {
+    padding: 10px 25px;
+
+    background-color: transparent;
+
+    color: white;
+
+    border: 2px solid #4f46e5;
+
+    border-radius: 6px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+.register-home-btn:hover {
+    background-color: #4f46e5;
+}
+
+
+
+
+.register-container {
+    position: fixed;
+
+    top: 70px;
+    left: 0;
+
+    width: 100%;
+
+    height: calc(100vh - 70px);
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+
+/* =========================
+   REGISTER BOX
+========================= */
+
+.register-box {
+    width: 380px;
+
+    padding: 35px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+/* TITLE */
+
+.register-box h1 {
+    margin: 0 0 30px 0;
+
+    text-align: center;
+
+    font-size: 32px;
+
+    color: #111827;
+}
+
+
+
+
+.register-box label {
+    display: block;
+
+    margin-bottom: 7px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    color: #111827;
+}
+
+
+/* INPUT */
+
+.register-box input {
+    width: 100%;
+
+    height: 45px;
+
+    padding: 0 12px;
+
+    margin-bottom: 18px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+
+.register-box input:focus {
+    border-color: #4f46e5;
+}
+
+
+
+
+.register-submit {
+    width: 100%;
+
+    height: 45px;
+
+    margin-top: 5px;
+
+    background-color: #4f46e5;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+.register-submit:hover {
+    background-color: #4338ca;
+}
+
+
+
+.register-box p {
+    margin-top: 22px;
+
+    margin-bottom: 10px;
+
+    text-align: center;
+
+    font-size: 15px;
+
+    color: #374151;
+}
+
+
+/* LOGIN BUTTON */
+
+.login-link {
+    display: block;
+
+    margin: 0 auto;
+
+    padding: 10px 25px;
+
+    background-color: #111827;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+
+.login-link:hover {
+    background-color: #374151;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .register-navbar {
+        padding: 0 20px;
+    }
+
+    .register-logo {
+        font-size: 18px;
+    }
+
+    .register-box {
+        width: 100%;
+        max-width: 380px;
+    }
+}

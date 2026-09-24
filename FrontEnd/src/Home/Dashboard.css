@@ -1,0 +1,171 @@
+
+
+.dashboard-page {
+    min-height: 100vh;
+    background: #f5f7fb;
+    font-family: Arial, sans-serif;
+}
+
+
+.dashboard-navbar {
+    height: 70px;
+    padding: 0 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.dashboard-navbar h2 {
+    margin: 0;
+    color: #222;
+}
+
+.dashboard-navbar button {
+    margin-left: 8px;
+
+    padding: 9px 16px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #2563eb;
+    color: white;
+
+    cursor: pointer;
+}
+
+.dashboard-navbar button:hover {
+    background: #1d4ed8;
+}
+
+.dashboard-content {
+    width: 900px;
+    max-width: 90%;
+
+    margin: 40px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+}
+
+.welcome-box {
+    grid-column: 1 / -1;
+
+    padding: 25px;
+
+    background: white;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.welcome-box h1 {
+    margin: 0 0 8px;
+
+    color: #222;
+}
+
+.welcome-box p {
+    margin: 0;
+
+    color: #666;
+}
+
+
+.dashboard-card {
+    padding: 25px;
+
+    background: white;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-card h2 {
+    margin-top: 0;
+    color: #222;
+}
+
+.dashboard-card p {
+    color: #555;
+}
+
+
+/* ------------------------------
+   Skills
+------------------------------ */
+
+.dashboard-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.dashboard-skill {
+    padding: 7px 12px;
+
+    background: #e8f0ff;
+    color: #2563eb;
+
+    border-radius: 20px;
+
+    font-size: 14px;
+}
+
+
+/* ------------------------------
+   Card Buttons
+------------------------------ */
+
+.dashboard-card button {
+    padding: 10px 18px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #2563eb;
+    color: white;
+
+    cursor: pointer;
+}
+
+.dashboard-card button:hover {
+    background: #1d4ed8;
+}
+
+
+/* ------------------------------
+   Mobile
+------------------------------ */
+
+@media (max-width: 700px) {
+
+    .dashboard-navbar {
+        padding: 0 15px;
+    }
+
+    .dashboard-navbar h2 {
+        font-size: 18px;
+    }
+
+    .dashboard-navbar button {
+        padding: 7px 10px;
+        font-size: 12px;
+    }
+
+    .dashboard-content {
+        grid-template-columns: 1fr;
+    }
+
+    .welcome-box {
+        grid-column: auto;
+    }
+}

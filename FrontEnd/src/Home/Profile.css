@@ -1,0 +1,159 @@
+.profile-page {
+    min-height: 100vh;
+    background: #f5f7fb;
+    font-family: Arial, sans-serif;
+}
+.profile-navbar {
+    height: 70px;
+    padding: 0 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-navbar h2 {
+    margin: 0;
+    color: #222;
+}
+
+.profile-navbar button {
+    padding: 10px 20px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #2563eb;
+    color: white;
+
+    cursor: pointer;
+}
+
+.profile-navbar button:hover {
+    background: #1d4ed8;
+}
+
+.profile-box {
+    width: 500px;
+    max-width: 90%;
+
+    margin: 40px auto;
+    padding: 30px;
+
+    background: white;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.profile-box h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.profile-info {
+    margin-bottom: 25px;
+}
+
+.profile-info h3 {
+    margin-top: 18px;
+    margin-bottom: 5px;
+
+    color: #555;
+    font-size: 15px;
+}
+
+.profile-info p {
+    margin: 0;
+
+    color: #222;
+    font-size: 16px;
+}
+
+.profile-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    margin-top: 10px;
+}
+
+.skill {
+    display: inline-block;
+
+    padding: 7px 12px;
+
+    background: #e8f0ff;
+    color: #2563eb;
+
+    border-radius: 20px;
+
+    font-size: 14px;
+}
+.profile-box > button {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 10px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #2563eb;
+    color: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+.profile-box > button:hover {
+    background: #1d4ed8;
+}
+
+
+.profile-page > h2 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.profile-page > button {
+    display: block;
+
+    margin: 20px auto;
+
+    padding: 12px 25px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #2563eb;
+    color: white;
+
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+
+    .profile-navbar {
+        padding: 0 20px;
+    }
+
+    .profile-navbar h2 {
+        font-size: 18px;
+    }
+
+    .profile-box {
+        margin: 25px auto;
+        padding: 20px;
+    }
+
+}
