@@ -14,7 +14,7 @@ function Register({ setPage }) {
         try {
 
             const response = await fetch(
-                "http://localhost:5000/register",
+                "https://ai-resume-job-matcher-ardp.onrender.com/register",
                 {
                     method: "POST",
 
@@ -90,9 +90,6 @@ function Register({ setPage }) {
                 </button>
 
             </nav>
-
-
-            {/* Register */}
 
             <div className="register-container">
 

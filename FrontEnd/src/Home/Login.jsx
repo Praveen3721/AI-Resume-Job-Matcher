@@ -11,7 +11,7 @@ function Login({ setPage }) {
         try {
 
             const response = await fetch(
-                "http://localhost:5000/login",
+                "https://ai-resume-job-matcher-ardp.onrender.com/login",
                 {
                     method: "POST",
                     headers: {

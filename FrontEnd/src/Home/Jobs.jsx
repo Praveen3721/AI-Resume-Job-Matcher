@@ -43,7 +43,7 @@ function Jobs({ setPage }) {
                 }
 
                 const response = await fetch(
-                    "http://localhost:5000/match",
+                    "https://ai-resume-job-matcher-ardp.onrender.com/match",
                     {
                         method: "POST",
 
